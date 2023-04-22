@@ -85,7 +85,7 @@ row[4].text = '$' + f'{total:,}' + '.00'
 row[4].style = 'Table Grid'
 
 paragraph = doc.add_paragraph().add_run('Please make all checks payable to:\n' +
-                                        'Yoly Cleaning Service, 311 6th Street SE, Naples, FL 34117')
+                                        'Yoly Cleaning Service, Naples, FL 34117')
 paragraph.font.name = 'Calibri (Body)'
 paragraph.font.size = Pt(14)
 
